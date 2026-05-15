@@ -15,7 +15,7 @@ public class SalesContract extends Contract {
         this.financeOption = financeOption;
         this.salesTaxAmount = 0.05;
         this.recordingFee = 100;
-        processingFee = vehicleSold.getPrice() > 10000 ? 295 : 495;
+        processingFee = totalPrice > 10000 ? 295 : 495;
     }
 
 
